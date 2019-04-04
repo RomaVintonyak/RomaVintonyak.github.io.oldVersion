@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: #2222;
+}
+/*navbar*/
+.container-fluid .navbar-brand{
+    font-size: 35px;
+}
+.container-fluid h1{
+    padding: 1em;
+    border-radius: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.navbar-nav li{
+padding-right: 30px;
+}
+.nav-link{
+    font-size: 1.1em; !important;
+}
+/*slider*/
+.carousel-inner{
+    height: 500px;
+}
+.carousel-inner img{
+    /*transform: translateY(-20%);*/
+    /*width: 100%;*/
+    height: 100%;
+}
+.flexabl-img{
+    max-width: 100%;
+}
+
+@media  (min-width: 860px) {
+    .carousel-inner img{
+        width: 100%;}
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+}
+.carousel-caption h1{
+    padding-top: 40px;
+    font-style: initial;
+    color: rgb(34, 34, 34);
+}
+.carousel-caption h3{
+    color: rgb(34, 34, 34);
+    font-family: "Book Antiqua", sans-serif;
+    font-size: 4em;
+    padding-top: 20px;
+}
+/*main block*/
+@media (max-width: 450px) {
+    .carousel-caption .display-2 {
+        font-size: 2em;
+    }
+}
+.padding{
+  padding-bottom: 2em;
+}
+.alert{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+.alert h1 {
+    color: rgb(34, 34, 34);
+    padding-top: 1px;
+    font-family: "Raleway", sans-serif;
+    font-size: 5em;
+    margin-bottom: 1px;
+
+}
+.alert h1:hover{
+    text-shadow: 3px 3px 3px #8f8f8f;
+    transition: text-shadow 300ms linear 0ms;
+}
+.alert h2{
+     color: rgb(34, 34, 34);
+     font-family: "Book Antiqua", sans-serif;
+     margin-bottom: 1px;
+ }
+.alert h2:hover {
+    text-shadow: 3px 3px 3px #8f8f8f;
+    transition: text-shadow 300ms linear 0ms;
+    cursor: pointer;
+}
+/*opys poslug*/
+.mainBlock img{
+    width: 10%;
+    padding-top: 20px;
+}
+.mainBlock h3{
+    color: rgb(34, 34, 34);
+    padding-top: 1px;
+    font-family: "Book Antiqua", sans-serif;
+    margin-bottom: 1px;
+    font-size: 2em;
+    padding-bottom: 10px;
+
+}
+.text-typing
+{
+    width: 13em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 8s steps(50, end);
+    animation: type 8s steps(50, end);
+}
+@keyframes type{
+    from { width: 0px; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0px; }
+}
+.mainBlock h3:hover{
+    text-shadow: 3px 3px 3px #8f8f8f;
+    transition: text-shadow 300ms linear 0ms;
+}
+.mainBlock p, .mainBlock ol{
+    color: rgb(34, 34, 34);
+    padding-top: 5px;
+    font-family: "Book Antiqua", sans-serif;
+    margin-bottom: 1px;
+    font-size: 1em;
+    transition: all 300ms linear 0ms;
+}
+.hower:hover{
+    transform: rotate(0deg) scale(1.1,1.1) ;
+    box-shadow: 1px 1px 1px #cacaca;
+    z-index: 999;
+    transition: transform 300ms linear 100ms,
+    box-shadow 300ms linear 0ms, z-index 300ms linear 0ms;
+    background: #f4f4f4;
+}
+/*img block*/
+#fixed{
+    width: 100%;
+    height: 200px;
+    background: url("../img/index/fon.jpeg") no-repeat center center fixed;
+    background-blend-mode: multiply;
+    border-color: lightblue;
+   /** background-size: cover;*/
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+
+
+}
+
+/*footer*/
+footer span, i{
+    color: black;
+}
+.social a{
+    font-size: 1.5em;
+    padding: 4px;
+}
+.fa-envelope, .fa-facebook, .fa-instagram{color: black}
+.fa-instagram:hover, .fa-facebook:hover, .fa-envelope:hover{color: #737475
+}
+/*rotate img for main block*/
+.rotate:hover {
+    -webkit-transform: rotateZ(20deg);
+    -ms-transform: rotateZ(20deg);
+    transform: rotateZ(20deg);
+    cursor: pointer;
+}
+/***********************************************************
+
+                        MEDIA QUERIS
+
+***********************************************************/
+
+/*@media (max-width: 1160px) {
+    .container{
+        width: 100%;
+    }
+    .col-4{
+        width: 100%;
+        box-sizing: content-box;
+        box-sizing: border-box;
+
+
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+
+    }
+}*/
+

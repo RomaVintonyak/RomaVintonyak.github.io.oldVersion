@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Lobster');
+
+/*main block*/
+.head h1{
+    font-family: "Book Antiqua", sans-serif;
+    font-size: 4em;
+    color: #000000;
+
+}
+.head h3{
+    font-family: "Book Antiqua", sans-serif;
+    font-size: 2em;
+    color: #000000;
+}
+.head p{
+    font-family: "Book Antiqua", sans-serif;
+    font-size: 1.6em;
+    color: #000000;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.head img{
+    width: 8%;
+}
+.carousel-inner span{
+    color: red;
+}
+#paddingCarosel{
+    padding-top: 150px;
+}
+.head h1:hover {
+    text-shadow: 3px 3px 3px #8f8f8f;
+    transition: text-shadow 300ms linear 0ms;
+    cursor: pointer;
+}
+
+
